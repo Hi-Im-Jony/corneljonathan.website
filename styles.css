@@ -161,6 +161,7 @@ nav a:hover {
   min-height: 75vh;
 }
 .project-tile {
+  width: 45vw;
   display: flex;
   box-shadow: 0px 0px 15px 5px black;
   flex-direction: column;
@@ -201,7 +202,7 @@ nav a:hover {
 .project-description {
   color: bisque;
   height: 0;
-  width: 45vw;
+  width: 25vw;
   overflow: hidden;
 }
 .project-tile:hover .project-description {
@@ -352,6 +353,12 @@ nav a:hover {
     height: 30vh;
     width: auto;
   }
+
+  .project-tile {
+    width: 30vw;
+    margin: 0 2.5vw 0 2.5vw;
+  }
+
   .project-tile:hover .project-description {
     height: 5vh;
     transition-duration: 250ms;

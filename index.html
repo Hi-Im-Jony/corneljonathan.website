@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="styles.css" />
     <script
     src="https://kit.fontawesome.com/bd0338e85c.js"
     crossorigin="anonymous"
@@ -24,7 +24,7 @@
           <em>And This Is My Portfolio</em>
         </h2>
       </div>
-      <div id="welcome-background">
+      <div id="welcome-background" class="desktop-only">
         <img src="Images/computer-desk-196658.jpg" />
       </div>
     </div>
@@ -53,7 +53,8 @@
       />
 
       <p id="about-p-two" class="section-text-container">
-        I can code in Java, HTML and CSS.
+        I can code in Java, HTML and CSS.  <br/>
+        I am also currently learning backend web-development.
       </p>
     </div>
 
@@ -65,25 +66,29 @@
       </div>
       <div class="project-container">
         <div class="project-tile">
+          <a href="https://pieterpiano.com/" class="project-thumbnail" target="_blank"><img src="Images/pieterpiano-screenshot.png"></a>
+          <div class="project-title">Pieter's Piano <br></div>
+          <p class="project-description">
+            A simple yet attractive website for Pieter Louw, a piano teacher in Dublin          
+          </p>
+          
+        </div>
+        <div class="project-tile">
           <a href="#" class="project-thumbnail"><img src="Images/Documentation.png"></a>
           <div class="project-title">Technical Documentation Page</div>
           <p class="project-description">
-            A simple page that will act as as a technical documentation page for javascript. Right now it only has dummy text but it has a fully functional nav-bar and the website is simple and responsive.
+            A simple page that will act as as a technical documentation page for javascript. 
           </p>
-          <a href="#  " class="project-links">
-            <i class="far fa-file-code"> Code</i>
-          </a>
+          
         </div>
         <div class="project-tile">
           <a href="#" class="project-thumbnail"><img src="Images/Survey.png"></a>
           <div class="project-title">Survey on Music <br></div>
           <p class="project-description">
             A survey form that was part of my certification for Responsive Web Design from FreeCodeCamp.
-            It is a simple survey about you and your relationship with music          
+                      
           </p>
-          <a href="#  " class="project-links">
-            <i class="far fa-file-code"> Code</i>
-          </a>
+          
         </div>
     </div>
 
